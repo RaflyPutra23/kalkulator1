@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.calculator {
+    background-color: #840668;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    padding: 20px;
+}
+
+input[type="text"] {
+    width: 93%;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #000000;
+    background-color: #000000;
+    color: azure;
+    border-radius: 100px;
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    justify-content: center; /* Mengatur input dan tombol di tengah */
+    text-align: center; /* Mengatur input dan tombol di tengah */
+}
+
+/* Tambahan untuk mengatur input di tengah */
+
+.calculator input[type="text"] {
+    margin: 0 auto;
+}
+
+
+button {
+    padding: 10px;
+    font-size: 18px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #484c4f;
+}
